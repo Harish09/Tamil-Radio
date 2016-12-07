@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         SCService scService = SoundCloud.getService();
-        scService.getRecentTracks("user-466689447").enqueue(new Callback<List<Track>>() {
+        scService.getRecentTracks("ilayaraja-indianmaestro").enqueue(new Callback<List<Track>>() {
             @Override
             public void onResponse(Call<List<Track>> call, Response<List<Track>> response) {
                 if (response.isSuccessful()) {
